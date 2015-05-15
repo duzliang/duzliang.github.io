@@ -1,2 +1,2 @@
 # dome.github.io
-this is my own blog
+This is my blog
