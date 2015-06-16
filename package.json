@@ -1,9 +1,9 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
+  "name": "duzliang.github.io",
+  "version": "1.0.0",
   "private": true,
   "hexo": {
-    "version": ""
+    "version": "3.1.1"
   },
   "dependencies": {
     "hexo": "^3.0.0",

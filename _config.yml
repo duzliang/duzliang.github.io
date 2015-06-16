@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: dome
+title: duzliang
 subtitle:
-description: this is dome's blog
-author: domedu
+description: this is duzliang's blog
+author: duzliang
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://dome.github.io
+url: http://duzliang.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -62,9 +62,14 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type:
+
+language: zh-Hans
+language:
+- zh-Hans
+- en

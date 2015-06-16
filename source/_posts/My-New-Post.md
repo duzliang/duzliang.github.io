@@ -1,0 +1,15 @@
+title: 优化JavaScript的执行效率
+date: 2015-06-16 15:22:20
+tags:
+---
+页面里的动画效果大多是通过JavaScript触发的。有些是直接修改DOM元素样式属性而产生的，有些则是由数据计算而产生的，比如搜索或排序。错误的执行时机和太长的时间消耗，是常见的导致JavaScript性能低下的原因。你需要尽量减少这两方面对你的JavaScript代码带来的执行性能的影响。
+
+
+>对于动画效果的实现，避免使用setTimeout或setInterval，请使用requestAnimationFrame。
+>把耗时长的JavaScript代码放到Web Workers中去做。
+>把DOM元素的更新划分为多个小任务，分别在多个frame中去完成。
+>使用Chrome DevTools的Timeline和JavaScript Profiler来分析JavaScript的性能。
+
+JavaScript性能分析是一门艺术活，因为你所写的JavaScript代码跟实际执行的代码完全是两回事。现代浏览器都会使用JIT编译器和其他优化手段来使你的JavaScript代码能尽可能执行得更快，这个编译和优化的过程会对代码产生极大的改动。
+
+
