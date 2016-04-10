@@ -2,4 +2,5 @@
 Thumbs.db
 db.json
 *.log
+.idea
 node_modules/
