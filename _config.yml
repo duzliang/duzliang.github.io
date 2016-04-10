@@ -62,14 +62,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: next
+theme: landscape
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
-
-language: zh-Hans
-language:
-- zh-Hans
-- en
+  type: git
+  repo: git@github.com:duzliang/duzliang.github.io.git
+  branch: master
