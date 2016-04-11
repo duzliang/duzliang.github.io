@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: DOME
+title: H.S.G duzl
 subtitle:
-description: this is duzliang's blog
-author: duzliang
+description: 记录生活小感悟，自我学习及技术小知识！
+author: duzl
 language: zh-Hans
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://duzliang.github.io
-root: /
+url: http://duzliang.github.io/blog
+root: /blog
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
